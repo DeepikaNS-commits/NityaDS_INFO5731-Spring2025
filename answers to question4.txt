@@ -1,0 +1,50 @@
+
+### **NLP Task**:
+
+Sentiment Analysis: The primary NLP task for this dataset that we will perform is sentiment analysis. This involves classifying each text entry based on its sentiment—positive, negative, or neutral.
+### Labeling Schema:
+
+- Positive: Text entries that express satisfaction, praise, or positivity.
+- Negative: Text entries that express dissatisfaction, criticism, or negativity.
+- Neutral: Text entries that are balanced, indifferent, or neither positive nor negative.
+### Process:
+
+1. Data Collection:
+
+- Use your own reviews or tweets dataset that you have in your `.xlsx` file.
+2. Data Annotation:
+Manual Annotation:
+- Carefully read each review or tweet and annotate it manually by adding a sentiment tag: positive, negative, or neutral.
+Column Names:
+- Add a new column called `sentiment` in your data file where you will store these tags.
+3. Example CSV Structure
+
+Here is an example of how your data file might look after annotation:
+   ```
+   document_id,created_at,text,sentiment
+   1,2025-02-20 04:05:53,"Anime girl. #ai #anime #shortsvideo #viralvideo #viralshort #cartoon #anime_girls #AnimeArt https://t.co/DLggJel7G4",neutral
+   2,2025-02-20 04:05:50,"Playing around with AI. #Catwoman #Riddler #AI #gothamcity",neutral
+3,2025-02-20 04:05:49,"I cannot stress this enough. #ETF500 Will be largest/longest standing token on market. #Crypto #Memecoins #AI $AMC #StockMarket #butthole #jailstool #JailStoolArmy https://t.co/XzmAFIsY8W",
+positive
+```    
+4. Labeling Schema Explanation:
+
+- Positive: Text entries exhibiting positive emotions, i.e., enthusiasm, approval, or happiness. Example: "I love this product!"
+- Negative: Text inputs bearing negative feelings, such as disappointment, criticism, or dissatisfaction. Example: "This is the worst service I've ever had."
+   - Neutral: Text inputs that are neutral, neither possessing highly strong positive nor negative feelings. Example: "The event was okay, nothing special."
+### NLP Task:
+
+For assignment four, you are doing **Sentiment Analysis**. This is to classify the text entries into three categories of sentiment: positive, negative, or neutral. You can also do these other NLP tasks:
+- Named Entity Recognition (NER): Extract and classify proper nouns and named entities from the text.
+
+- Summarization: Develop a concise summary of the text entries.
+- Text Classification: Classify text entries into pre-defined categories of content.
+Steps to be taken:
+
+1. Data Preparation:
+   Manually annotate your data with sentiments and store the data in the form of a CSV file.
+2. GitHub Upload: Push the annotated CSV file into your GitHub repository.
+3. Documentation: Labeling schema documentation and description of all the sentiment labels in brief.
+With these steps, you will be left with an properly annotated dataset to perform sentiment analysis as well as other NLP tasks as and when required for your assignment.
+
+
